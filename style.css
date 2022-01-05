@@ -1,9 +1,11 @@
-.m1{
+/* .m1{
     font-family: 'Lobster', cursive;
 }
 .m2{
     font-family: 'Roboto', sans-serif;
-}
+} */
+
+
 body{
     margin: 0;
     padding: 0;
@@ -26,7 +28,7 @@ body{
     color: rgb(44, 43, 43);
     margin-left: 20px;
 }
-.main-title-box span{
+span{
     color: rgb(255, 154, 2);
 }
 
@@ -51,4 +53,38 @@ body{
     font-weight: 600;
     cursor: pointer;
     margin-bottom: 10px;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(44, 43, 43);
+}
+.section-2{
+    margin: 60px 0;
+}
+.mission-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 120px;
+}
+.cart{
+    width: 25%;
+    /* border: 1px solid black; */
+    padding: 10px 15px;
+    text-align: justify;
+    border-radius: 25px;
+}
+.cart img{
+    width: 200px;
+}
+.mission{
+    background: rgb(232, 232, 248);
+}
+.vission{
+    background: rgb(252, 235, 233);
+}
+.goals{
+    background: rgb(231, 252, 231);
 }
