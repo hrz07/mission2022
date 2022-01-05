@@ -43,6 +43,7 @@ span{
     font-size: 18px;
     text-align: justify;
     color: rgb(75, 73, 73);
+    /* word-spacing: 2px; */
 }
 .btn{
     padding: 10px 30px;
@@ -70,11 +71,13 @@ span{
     margin: 50px 120px;
 }
 .cart{
+    font-size: 18px;
     width: 25%;
     /* border: 1px solid black; */
     padding: 10px 15px;
     text-align: justify;
     border-radius: 25px;
+    
 }
 .cart img{
     width: 200px;
@@ -88,3 +91,38 @@ span{
 .goals{
     background: rgb(231, 252, 231);
 }
+
+#section-3{
+    margin: 100px 0;
+    
+}
+
+.coding-box{
+    display: flex;
+    flex-direction: row;
+    margin: 0 150px;
+}
+.conding-photo{
+    width: 40%;
+}
+.coding-doc{
+    width: 60%;
+    margin: auto 0;
+}
+.coding-doc h1{
+    font-size: 40px;
+    color: rgb(44, 43, 43);
+}
+.conding-photo img{
+    width: 340px;
+}
+.coding-doc p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(75, 73, 73);
+    /* word-spacing: 3px; */
+}
+
+
+
