@@ -4,3 +4,51 @@
 .m2{
     font-family: 'Roboto', sans-serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section-1{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 100px; */
+    margin: 100px 0;
+}
+.main-title-box{
+    border-left: 8px solid tomato;
+    
+}
+.main-title-box h1{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: rgb(44, 43, 43);
+    margin-left: 20px;
+}
+.main-title-box span{
+    color: rgb(255, 154, 2);
+}
+
+.half-side{
+    width: 50%; 
+    margin-left: 150px;
+}
+.half-side img{
+    width: 450px;
+}
+.half-side p{
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(75, 73, 73);
+}
+.btn{
+    padding: 10px 30px;
+    color: white;
+    background: tomato;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
