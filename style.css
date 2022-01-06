@@ -145,6 +145,15 @@ footer h1{
     font-family: 'Lobster', cursive;
     font-size: 35px;
 }
+#section-5 h1{
+    text-align: center;
+}
+.shadow{
+    box-shadow: 1px 1px 25px gray;
+}
+.shadow img{
+    width: 100%;
+}
 
 
 
