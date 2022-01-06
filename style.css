@@ -102,18 +102,18 @@ span{
     flex-direction: row;
     margin: 0 150px;
 }
-.conding-photo{
+.coding-photo{
     width: 40%;
 }
 .coding-doc{
-    width: 60%;
+    width: 50%;
     margin: auto 0;
 }
 .coding-doc h1{
     font-size: 40px;
     color: rgb(44, 43, 43);
 }
-.conding-photo img{
+.coding-photo img{
     width: 340px;
 }
 .coding-doc p{
@@ -123,6 +123,12 @@ span{
     color: rgb(75, 73, 73);
     /* word-spacing: 3px; */
 }
+.padding-left{
+    padding-left: 110px;
+}
+
+
+
 
 
 
