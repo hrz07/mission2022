@@ -1,9 +1,13 @@
-/* .m1{
+
+    /*
+    
+    >-------font family used-------<
+
     font-family: 'Lobster', cursive;
-}
-.m2{
     font-family: 'Roboto', sans-serif;
-} */
+    
+    */
+
 
 
 body{
@@ -78,6 +82,9 @@ span{
     text-align: justify;
     border-radius: 25px;
     
+}
+.cart p{
+    color: rgb(75, 73, 73);
 }
 .cart img{
     width: 200px;
