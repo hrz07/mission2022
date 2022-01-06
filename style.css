@@ -22,16 +22,29 @@ body{
     /* margin-top: 100px; */
     margin: 100px 0;
 }
-.main-title-box{
-    border-left: 8px solid tomato;
-    
-}
+
+/* .main-title-box {
+    border-left: 8px solid tomato;  
+} */
+
 .main-title-box h1{
     font-family: 'Lobster', cursive;
     font-size: 70px;
     color: rgb(44, 43, 43);
     margin-left: 20px;
 }
+.main-title-box::before{
+    content: '';
+    height: 145px;
+    width: 8px;
+    background: tomato;
+    float: left;
+    margin-top: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
 span{
     color: rgb(255, 154, 2);
 }
